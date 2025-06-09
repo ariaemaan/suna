@@ -33,7 +33,7 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     ports:
-      - "8000:8000"
+      - "8080:8080"
     volumes:
       - ./backend/.env:/app/.env:ro
     env_file:
